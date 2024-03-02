@@ -13,7 +13,17 @@
 
 ## start OS with QEMU
 
-`qemu-system-arm -M versatilepb -m 128M -nographic -kernel miniOS-arm.bin`
+```
+$ qemu-system-arm -M versatilepb -m 128M -nographic -kernel miniOS-arm.bin
+qemu-system-arm -M versatilepb -m 128M -nographic -kernel miniOS-arm.bin
+xcb_connection_has_error() returned true
+pulseaudio: set_sink_input_volume() failed
+pulseaudio: Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed
+pulseaudio: Reason: Invalid argument
+Hello baby ARM by Fariz!
+```
+
 
 # Author
 
