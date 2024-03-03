@@ -19,6 +19,10 @@ $ qemu-system-arm -M versatilepb -m 128M -nographic -kernel miniOS-arm.bin
 Hello baby ARM by Fariz!
 
 ```
+### note
+
+* on Memory
+* no NAND or MMC controller
 
 
 # Author
