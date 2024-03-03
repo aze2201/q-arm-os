@@ -1,3 +1,4 @@
+# Simple Operating system with kernel on ARM/arm926ej-s arch
 
 ## installing tool chain
 1. `wget https://download.iopsys.eu/iopsys/toolchain/arm-2011.09-69-arm-none-eabi-i686-pc-linux-gnu.tar.bz2`
