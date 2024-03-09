@@ -9,8 +9,8 @@
 
 ## compiling source code
 
-1. `arm-2011.09/bin/arm-none-eabi-as -mcpu=arm926ej-s -g boot.s -o boot.o `
-2. `arm-2011.09/bin/arm-none-eabi-gcc -c -mcpu=arm926ej-s -g kernel.c -o kernel.o`
+1. `arm-2011.09/bin/arm-none-eabi-as  -g boot.s -o boot.o `
+2. `arm-2011.09/bin/arm-none-eabi-gcc -c  -g kernel.c -o kernel.o`
 3. `arm-2011.09/bin/arm-none-eabi-ld -T linker.ld kernel.o boot.o -o miniOS.elf`
 4. `arm-2011.09/bin/arm-none-eabi-objcopy -O binary miniOS.elf miniOS-arm.bin`
 
