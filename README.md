@@ -1,4 +1,4 @@
-# Dummy Operating System ARM/arm926ej-s arch
+# Dummy Operating System ARM arch
 
 `Embed Bin ( ELF ( boot (kernel entrypoint) ) )`
 
