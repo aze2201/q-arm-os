@@ -11,8 +11,8 @@
 
 1. `arm-2011.09/bin/arm-none-eabi-as  -g boot.s -o boot.o `
 2. `arm-2011.09/bin/arm-none-eabi-gcc -c  -g kernel.c -o kernel.o`
-3. `arm-2011.09/bin/arm-none-eabi-ld -T linker.ld kernel.o boot.o -o miniOS.elf`
-4. `arm-2011.09/bin/arm-none-eabi-objcopy -O binary miniOS.elf miniOS-arm.bin`
+3. `arm-2011.09/bin/arm-none-eabi-ld -T linker.ld kernel.o boot.o -o q-arm-os.elf`
+4. `arm-2011.09/bin/arm-none-eabi-objcopy -O binary q-arm-os.elf q-arm-os.bin`
 
 ## start OS with QEMU
 
