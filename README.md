@@ -1,4 +1,4 @@
-# Dummy Operating System ARM arch
+# Dummy Operating System ARM Cortex M arch
 
 `Embed Bin ( ELF ( boot (kernel entrypoint) ) )`
 
