@@ -23,6 +23,7 @@ Hello baby ARM by Fariz!
 ```
 ### note
 
+* dummy interrupts
 * on Memory
 * no NAND or MMC controller
 
