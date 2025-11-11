@@ -35,9 +35,8 @@ void (*const interrupt_vector_table[])(void) __attribute__((section(".isr_vector
 
 
 void _init(void) {
+    // enable_irq()
 
-    // __enable_irq()
-    
     // Now you can print message for trigger  interrupts
     print_console("Hello baby ARM by Fariz!\n");
 }
